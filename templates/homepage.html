@@ -6,6 +6,7 @@
         <link rel="icon" href="{{url_for('static', filename='images/favicons/felix-512x512.png')}}">
         <link rel="stylesheet" href="{{url_for('static',filename='css/generic.css')}}">
         <link rel="stylesheet" href="{{url_for('static',filename='css/homepage.css')}}">
+        <link rel="stylesheet" href="{{url_for('static',filename='css/art-display.css')}}">
 
     </head>
 
@@ -16,36 +17,40 @@
                 {% include "navbar.html" %}
             </div>
 
-            <div id="about-outside">
-                <div id="about-inside">
+            <div class="art-board">
 
-                    <div id="about-left">
-                        <div id="about-image">
-                            <img src="{{url_for('static',filename='images/me.jpg')}}">
-                        </div>
+                <div class="art-board-row">
+                    <div class="art-container-top">
+                        
                     </div>
 
-                    <div id="about-right">
-                        <div id="about-title">
-                            Hello, I'm Lewis Meakin.
-                        </div>
-                        <div id="about-info">
-                            Having Graduated from Coventry University with Bachelors of Computer, I possess experience and knowledge with an array of coding languages and concepts.
-                            Starting with Python back in 2020 I have experimented with several different programming languages including: C#, C++, and JavaScript.
-                            Though I also have in depth experience with markdown languages such as HTML and CSS, alongside the database managment language SQL.
-                            <br> <br>
-                            Over the course of my education I have put these skills to use in a vast range of fields such as Full-Stack Web Development, Data Analysis and Modelling, and Software Design. 
-                            These pursuits have built on top of my already strong desire to solve problems to leave me with a wide set of strong skills which I employ to investigate and rectify problems.
-                            While I enjoy the feeling that comes with creating something from scratch I mostly find myself drawn to the problem-solving aspect of Computer Science, finding that thinking creatively to overcome a problem is the ultimate reward itself.
-                        </div>
-
-                        <div id="about-links-bar">
-                            
-                        </div>
+                    <div class="art-container-bottom">
+                        
                     </div>
-                    
+
+                    <div class="art-container-top">
+                        
+                    </div>
                 </div>
+
+                
+                <div class="art-board-row">
+                    <div class="art-container-top">
+                        
+                    </div>
+
+                    <div class="art-container-bottom">
+                        
+                    </div>
+
+                    <div class="art-container-top">
+                        
+                    </div>
+                </div>
+
             </div>
+
+        </div>
 
     </body>
 
